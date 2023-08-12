@@ -11,5 +11,8 @@ export interface GetPosts {
   community_id?: CommunityId;
   community_name?: string;
   saved_only?: boolean;
+  liked_only?: boolean;
+  disliked_only?: boolean;
+  moderator_view?: boolean;
   auth?: string;
 }
